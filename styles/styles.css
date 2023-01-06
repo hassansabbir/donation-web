@@ -1,3 +1,117 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
 .heading {
+    text-align: left;
+    padding-top: 35px;
+    padding-bottom: 500px;
+    background-image: url(../Gallery/images/flood-ppl-01.jpeg); 
+    display: flex;
+    
+    align-items: center;
+}
+
+/* .butt-primary {
+    padding: 10px 20px;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+
+} */
+
+.heading-title {
+    font-size: 50px;
+    font-weight: 800px;
+    padding:0 250px 0 50px;
+    color: black;
+    text-align: left;      
+}
+.heading-description {
+    padding: 0 250px 0 50px;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.donate-butt {
+    margin-right: 200px;
+    background-color: rgb(255, 68, 0);
+    color: white;
+    border-color:rgb(255, 68, 0) ;
+    border-radius: 6px;
+    padding: 10px 50px;
+}
+
+/* Donate section */
+
+.donate-today {
     text-align: center;
+    margin-top: 200px;
+
+}
+
+.donate-title {
+    font-size: 45px;
+}
+
+.donate-description {
+    font-weight: 800px;
+    padding: 0 300px;
+    font-weight: bold;
+    color: gray;
+}
+
+.taka-button {
+    display: flex;
+    margin-left: 250px;
+    justify-content: space-between;
+    align-items: center;
+}    
+
+ul {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+}
+
+.tk-butt {
+    height: 55px;
+    width: 100px;
+    background-color: rgb(240, 240, 240);
+    padding-top: 40px;
+    color: rgb(99, 94, 94);
+    font-weight: bold;
+    font-size: 20px;
+}
+.tk-butt2 {
+    height: 55px;
+    width: 100px;
+    background-color: rgb(255, 208, 208);
+    border: 2px solid brown;
+    padding-top: 40px;
+    color: brown;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.other-amount {
+    text-align: center;
+    margin-top: 80px;
+    color: gray;
+}
+hr {
+    max-width: 700px;
+    color: gray;
+}
+.dnt-butt {
+    margin-top: 30px;
+    padding: 15px 25px;
+    background-color: rgb(236, 86, 86);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
 }
